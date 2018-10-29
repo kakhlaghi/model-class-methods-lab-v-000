@@ -11,5 +11,5 @@ class Boat < ActiveRecord::Base
     where("length<20") 
   end
   
-  def self.
+  def self.ship
 end
