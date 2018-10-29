@@ -8,6 +8,6 @@ class Boat < ActiveRecord::Base
   end
   
   def self.dinghy
-    all ? 
+    where() 
   end
 end
